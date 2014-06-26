@@ -9,12 +9,13 @@ class Insertion_Sort
 
 	def self.sort(numbers)
   	1.upto(numbers.count - 1) do |index|
-    	insert(numbers, index, numbers[index])
+    	self.insert(numbers, index, numbers[index])
   	end
   	numbers
 	end
 
-	def insert(numbers, index, value)
+	private
+	def self.insert(numbers, index, value)
 	  previous_index = index - 1
 	  while (previous_index >= 0) && (numbers[previous_index] > value)
 	    numbers[previous_index + 1] = numbers[previous_index]
