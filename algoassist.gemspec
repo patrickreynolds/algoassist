@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.description = "Provides additional information regarding algorithms and their implementations."
   s.authors     = ["Patrick Reynolds"]
   s.email       = 'patrickscottreynolds@gmail.com'
-  s.files       = ["lib/algorithms.rb"]
-  s.homepage    = 'patrickreynolds.me'
+  s.files       = ["lib/algoassist.rb"]
+  s.homepage    = 'http://www.patrickreynolds.me'
   s.license     = 'MIT'
 end
