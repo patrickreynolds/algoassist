@@ -1,5 +1,14 @@
 # Algorithms Classes
-class Insertion_Sort
+
+# Use modules to encapsulate
+
+module Algoassist
+	require '/algoassist/insertion_sort'
+	require '/'
+end
+
+
+class Algoassit::Insertion_Sort
 	def self.info
 		puts "Name: Insertion Sort"
 		puts "O Notation:"
